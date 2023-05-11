@@ -18,7 +18,7 @@ const theme = {
 // all available config props
 const config = {
   width: '1500px',
-  height: '600px',
+  height: '500px',
   hideUserAvatar: true,
   placeholder: 'Type your response.',
   headerTitle: '⚡🚀Famous office quotes ',
