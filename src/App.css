@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+
+.bot {
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  position: fixed;
+  width: 350px;
+  z-index: 94;
+}
+
+.btn {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  right: 40px;
+  margin-bottom: 30px;
+  float: right;
+  
+  background: #110303;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img {
+  height: 200px;
+  width: 300px;
+}
+
+body{
+  background-image: url("https://i.pinimg.com/originals/fa/12/8b/fa128b3bd59622936fb70c237275fb44.gif");
+}
+.bg-dark{
+  
+  transition-duration: 0.9s;
+  background-image: url("https://cdn.dribbble.com/users/63485/screenshots/4388983/media/5614308f1938b5a5939843407163b936.gif");
+}
+.bg-dark:hover{
+  border-radius: 30px;
+  box-shadow: rgba(79, 221, 14, 0.25) 0px 54px 55px, rgba(6, 174, 224, 0.12) 0px -12px 30px, rgba(192, 15, 228, 0.12) 0px 4px 6px, rgba(238, 13, 13, 0.17) 0px 12px 13px, rgba(7, 8, 1, 0.09) 0px -3px 5px;
+}
